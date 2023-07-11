@@ -1,0 +1,9 @@
+.button {
+  user-select: none;
+  padding: 18px 36px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  border: none;
+}
