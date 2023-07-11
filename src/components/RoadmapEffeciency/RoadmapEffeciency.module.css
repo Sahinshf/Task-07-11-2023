@@ -1,0 +1,35 @@
+.app__roadmapeffeciency__section {
+  padding-top: 150px;
+}
+.app__roadmapeffeciency {
+  display: flex;
+}
+
+.app__roadmapeffeciency__right {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app__roadmapeffeciency__right__header {
+  margin-bottom: 35px;
+  font-size: 45px;
+  font-weight: 600;
+  color: #3d4270;
+  line-height: 1.2;
+}
+
+/* .app__roadmapeffeciency__right__button {
+  display: flex;
+  align-self: left;
+} */
+
+.app__roadmapeffeciency__right p {
+  font-size: 18px;
+  margin-bottom: 35px;
+
+  font-weight: 400;
+  line-height: 28px;
+  color: #65677e;
+}

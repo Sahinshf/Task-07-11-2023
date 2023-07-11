@@ -1,0 +1,29 @@
+.app__about__right h2 {
+  font-weight: 600;
+  color: #3d4270;
+  line-height: 1.2;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.app__about__right p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #65677e;
+  margin-bottom: 35px;
+}
+
+.app__about {
+  display: flex;
+}
+
+.app__about__left {
+  margin-bottom: 30px;
+  margin-right: 110px;
+}
+
+.app__about__section {
+  padding-top: 150px;
+  padding-bottom: 20px;
+}

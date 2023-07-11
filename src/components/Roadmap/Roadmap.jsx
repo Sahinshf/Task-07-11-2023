@@ -1,7 +1,14 @@
 import React from "react";
+import Road from "../Road/Road";
+import RoadmapEffenciency from "../RoadmapEffeciency/RoadmapEffeciency";
 
 const Roadmap = () => {
-  return <div>Roadmap</div>;
+  return (
+    <>
+      <Road />;
+      <RoadmapEffenciency />
+    </>
+  );
 };
 
 export default Roadmap;
