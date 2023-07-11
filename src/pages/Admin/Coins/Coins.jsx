@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./Coins.css";
 import { Table } from "antd";
 import axios from "axios";
+import Styles from "./Coins.module.css";
 
 const Coins = () => {
   const [dataSource, setDataSource] = useState([]);
@@ -10,13 +10,13 @@ const Coins = () => {
       title: "Name",
       dataIndex: "name",
       key: "name",
-      render: (name) => <p>{name}</p>,
+      render: (name) => <p className={Styles.custom_table}>{name}</p>,
     },
     {
       title: "Current Price",
       dataIndex: "current_price",
       key: "current_price",
-      render: (price) => `$${price.toFixed(2)}`,
+      render: (price) => <p className={Styles.custom_table}>{price}</p>,
     },
     {
       title: "Image",
